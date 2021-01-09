@@ -1,5 +1,5 @@
 const mongoose = require("mongoose");
-const uniqueValidator = require('mongoose-unique-validator');
+const uniqueValidator = require("mongoose-unique-validator");
 
 if (process.argv.length < 3) {
 	console.log(
@@ -20,8 +20,8 @@ mongoose.connect(url, {
 });
 
 const personSchema = mongoose.Schema({
-    name: { type: String, required: true, unique: true },
-    number: { type: String, required: true, unique: true },
+	name: { type: String, minlength: 3, required: true, unique: true },
+	number: { type: String, required: true, minlength: 8 },
 });
 
 // Apply the uniqueValidator plugin to personSchema.
