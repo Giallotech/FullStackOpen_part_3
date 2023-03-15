@@ -5,4 +5,4 @@ Stack Open course into a new dedicated git repository.
 
 ## Links
 
-- Live Site URL: [https://phonebook-kt0b.onrender.com](https://phonebook-kt0b.onrender.com)
+- Live Site URL: [https://phonebook-ziel.onrender.com/](https://phonebook-ziel.onrender.com/)
