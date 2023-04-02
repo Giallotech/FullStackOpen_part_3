@@ -4,6 +4,7 @@ module.exports = {
     'es2021': true,
     'node': true
   },
+  'root': true,
   'extends': 'eslint:recommended',
   'overrides': [
   ],
@@ -35,6 +36,6 @@ module.exports = {
     'arrow-spacing': [
       'error', { 'before': true, 'after': true }
     ],
-    'no-console': 0
+    'no-console': 0,
   }
 }
